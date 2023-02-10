@@ -27,7 +27,7 @@ const ProjectSchema = new mongoose.Schema(
           '{VALUE} is not supported. Accepted Values - Not Started, In Progress, Completed',
       },
     },
-    client: {
+    clientId: {
       type: mongoose.Schema.ObjectId,
       ref: 'Client',
     },
